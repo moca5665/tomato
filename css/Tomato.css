@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ header {
+    height: 35vh;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid sienna;
+ }
+ 
+ header > article {
+    width: 70%;
+    height: 95%;
+    background-image: url("../img/tomatos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ header h1 {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(255, 140, 0, 0.643);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ nav {
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(255, 140, 0);
+ }
+ 
+ nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+ }
+ 
+ nav li {
+    display: flex;
+    width: 100%;
+    border-right: 1px solid white;
+ }
+ 
+ nav a {
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding: 5%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .4s;
+ }
+ 
+ nav a:hover {
+    background-color: rgb(255, 140, 0);
+    color: black;
+    cursor: pointer;
+ }
+ 
+ main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1%;
+    background-color: beige;
+ }
+ 
+ main > section {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+ }
+ 
+ main > section:last-child {
+    padding-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+ }
+ 
+ h2, h3 {
+    color: sienna;
+    text-transform: uppercase;
+ }
+ 
+ h2 > span {
+    color: orangered;
+ }
+ 
+ blockquote {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    line-height: 1.5;
+    color: olive;
+    font-style: italic;
+    font-weight: 600;
+    width: 70%;
+ }
+ 
+ figure {
+    border: 1px solid dimgray;
+    padding: 1%;
+    width: fit-content;
+ }
+ 
+ figure > img {
+    width: 15vh;
+    height: 10vh;
+ }
+ 
+ article > figure {
+    float: right;
+ }
+ 
+ p {
+    line-height: 1.5;
+ }
+ 
+ 
+ aside > figure {
+    float: left;
+    margin-right: 15px;
+ }
+ 
+ form {
+    width: 20%;
+ }
+ 
+ fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+ }
+ 
+ footer {
+    padding: 1%;
+    border-top: 5px solid sienna;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+ }
+ 
+ footer a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .left, .right {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+ }
+ 
+ .middle {
+    border-left: 1px dashed orangered;
+    border-right: 1px dashed orangered;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+ }
+ 
+ .left > ul {
+    list-style-type: square;
+    color: sienna;
+    padding-left: 5%;
+ }
+ 
+ .left ul a {
+    line-height: 2;
+    padding: 1%;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: sienna;
+    font-size: 14px;
+    font-weight: 600;
+ }
+ 
+ .right > ul {
+    padding-left: 15%;
+ }
+ 
+ .right ul a {
+    text-decoration: none;
+    font-size: 14px;
+ }
+ 
+ .middle > article:nth-child(2) {
+    padding-top: 5%;
+ }
+ 
+ .middle > article:last-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+ }
+ 
+ [type="submit"] {
+    width: 40%;
+ }
+
+ #name {
+   color: blue;
+   text-decoration: none;
+ }
